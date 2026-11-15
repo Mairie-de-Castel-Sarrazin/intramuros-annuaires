@@ -4,9 +4,13 @@
     "nom": "Ateliers Corps Enchanté",
     "categorie": "Bien-être",
     "telephone": "06 87 37 96 05",
-    "email": "contact@corpsenchante.fr",
-    "site": "https://corpsenchante.fr",
-    "adresse": "331 Route d'Arsague 40330 Castel-Sarrazin",
-    "url": "https://www.intramuros.org/fiche/acteur/391469"
+    "email": "contact@corpsenchante.fr"
+  },
+  {
+    "id": 386201,
+    "nom": "Au Vieux Lango",
+    "categorie": "Hébergement",
+    "telephone": "05 25 00 64 40",
+    "email": ""
   }
 ]
