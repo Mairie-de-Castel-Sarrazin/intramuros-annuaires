@@ -22,4 +22,5 @@ jobs:
       - name: Afficher début HTML
         run: |
           head -n 50 debug.html
-        run: cat data/annuaire-acteurs.json
+          echo "---------------"
+          cat data/annuaire-acteurs.json
