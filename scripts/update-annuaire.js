@@ -23,6 +23,16 @@ async function main() {
     const html =
         await response.text();
 
+    fs.writeFileSync(
+    'debug.html',
+    html,
+    'utf8'
+);
+
+console.log(
+    html.substring(0, 1000)
+);
+
     const marker =
         '<script id="__NEXT_DATA__" type="application/json">';
 
