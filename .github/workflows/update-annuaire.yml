@@ -4,14 +4,20 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Afficher un message
-        run: |
-          echo "Bonjour Castel-Sarrazin"
-          date
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Générer annuaire
+        run: node scripts/update-annuaire.js
+
+      - name: Afficher résultat
+        run: cat data/annuaire-acteurs.json
