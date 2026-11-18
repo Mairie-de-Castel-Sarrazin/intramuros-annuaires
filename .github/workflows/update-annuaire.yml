@@ -19,8 +19,6 @@ jobs:
       - name: Générer annuaire
         run: node scripts/update-annuaire.js
 
-      - name: Afficher début HTML
+      - name: Afficher résultat
         run: |
-          head -n 50 debug.html
-          echo "---------------"
-          cat data/annuaire-acteurs.json
+          echo "Workflow terminé"
